@@ -2,8 +2,44 @@ body {
     background-color: rgb(255, 0, 140);
 }
 
-.pro {
+.profile {
     background-color: moccasin;
-    width: 20%;
-    height: 100%%;
+    width: 20vw;
+    height: 100vw;
+    position: relative;
+
+#conocimientos {
+    top: 30%;
+}
+
+li {
+    color: rgb(100, 74, 26);
+    
+}
+
+li::marker{
+    color: rgb(255, 0, 140);
+}
+
+p {
+    color: rgb(100, 74, 26);
+    position: absolute;
+    top: 15%;
+}
+
+img {
+    top: 15vw;
+    border-radius: 25%;
+    border-color:  rgb(255, 0, 140);
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 5%;
+
+}
+
+.ref_github {
+    background-color: rgb(255, 0, 140);
+    border-radius: 25%;
+    top: 65%;
 }

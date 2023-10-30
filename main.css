@@ -7,14 +7,15 @@ body {
     width: 20vw;
     height: 100vw;
     position: relative;
+}
 
-#conocimientos {
-    top: 30%;
+ul {
+    position: absolute;
+    top: 15%;
 }
 
 li {
-    color: rgb(100, 74, 26);
-    
+    font-style: italic;
 }
 
 li::marker{
@@ -24,7 +25,7 @@ li::marker{
 p {
     color: rgb(100, 74, 26);
     position: absolute;
-    top: 15%;
+    top: 10%;
 }
 
 img {
@@ -34,12 +35,15 @@ img {
     width: 10vw;
     height: 10vw;
     position: absolute;
-    top: 5%;
+    top: 0%;
+    left: 20%;
 
 }
 
 .ref_github {
     background-color: rgb(255, 0, 140);
     border-radius: 25%;
-    top: 65%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
 }

@@ -1,9 +1,16 @@
+/*
+color fondos #60D6E6
+color contraste #E6D660
+color letra y demas #E660A5
+*/
+
 body {
-    background-color: rgb(255, 0, 140);
+    background-color: #60D6E6;
+    font-family: Pixely;
 }
 
 .profile {
-    background-color: moccasin;
+    background-color: #E6D660;
     width: 20vw;
     height: 100vw;
     position: relative;

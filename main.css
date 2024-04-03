@@ -4,9 +4,10 @@ color contraste #E6D660
 color letra y demas #E660A5
 */
 
+
 body {
     background-color: #60D6E6;
-    font-family: Pixely;
+    font-family: "Pixelify Sans";
 }
 
 .profile {

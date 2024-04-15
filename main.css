@@ -1,57 +1,44 @@
-/*
-color fondos #60D6E6
-color contraste #E6D660
-color letra y demas #E660A5
-*/
-
-
 body {
-    background-color: #60D6E6;
-    font-family: "Pixelify Sans";
+    background-color: #637073;
 }
 
-.profile {
-    background-color: #E6D660;
-    width: 20vw;
-    height: 100vw;
-    position: relative;
+header {
+    border-radius: 25px;
+    border-color: white;
+    border-style: ridge;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+ #grid_main{
+    display: grid;
+    grid-column: 3;
+ }
+#javascript {
+    background-color: #F2E357;
+    border-radius: 25px;
+    border-color: white;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    position: absolute;
-    top: 15%;
+#game {
+    background-color: #57DBF2;
+    border-radius: 25px;
+    border-color: white;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
 }
 
-li {
-    font-style: italic;
-}
-
-li::marker{
-    color: rgb(255, 0, 140);
-}
-
-p {
-    color: rgb(100, 74, 26);
-    position: absolute;
-    top: 10%;
-}
-
-img {
-    top: 15vw;
-    border-radius: 25%;
-    border-color:  rgb(255, 0, 140);
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    top: 0%;
-    left: 20%;
-
-}
-
-.ref_github {
-    background-color: rgb(255, 0, 140);
-    border-radius: 25%;
-    position: absolute;
-    top: 25%;
-    left: 40%;
+#contact {
+    background-color: #F2579D;
+    border-radius: 25px;
+    border-color: white;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
 }

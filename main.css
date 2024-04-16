@@ -11,11 +11,37 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: left;
+    grid-area: "H";
 }
+
+main {
+    grid-area: "M";
+}
+
+footer>a {
+    color: white;
+    bottom: 0%;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+#flexDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
  #grid_main{
     display: grid;
-    grid-column: 3;
+    grid-column: 20% 40% 40%;
+    grid-row: 33% 33% 33%;
+    grid-template-areas: "H M M"
+                         "H M M"
+                         "H M M";
  }
+
 #javascript {
     background-color: #F2E357;
     border-radius: 25px;
